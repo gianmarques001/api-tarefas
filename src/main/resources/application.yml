@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      authentication-database: ${MONGO_AUTH_DATABASE}
+      username: ${MONGO_USERNAME}
+      database: ${MONGO_DATABASE}}
+      password: ${MONGO_PASSWORD}
+      port: ${MONGO_PORT}
+      host: ${MONGO_HOST}
+  application:
+    name: api_tarefas
