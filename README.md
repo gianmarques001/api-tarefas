@@ -9,7 +9,7 @@ Este projeto foi utilizando **MongoDB** como banco de dados e padrões de projet
 
 Este projeto utiliza um stack moderno e amplamente adotado no mercado:
 
-- **Java 21**: Linguagem principal, aproveitando recursos modernos como records.
+- **Java 17**: Linguagem principal, aproveitando recursos modernos como records.
 - **Spring Boot 3.4**: Framework para criação de APIs RESTful com configuração simplificada.
   - **Spring Data MongoDB**: Integração com MongoDB para manipulação de dados.
   - **Bean Validation**: Validação robusta de entradas para dados consistentes.
