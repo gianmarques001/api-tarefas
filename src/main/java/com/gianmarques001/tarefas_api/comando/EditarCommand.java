@@ -1,7 +1,7 @@
 package com.gianmarques001.tarefas_api.comando;
 
-import com.gianmarques001.tarefas_api.SubTarefa;
-import com.gianmarques001.tarefas_api.Tarefa;
+import com.gianmarques001.tarefas_api.entity.SubTarefa;
+import com.gianmarques001.tarefas_api.entity.Tarefa;
 import com.gianmarques001.tarefas_api.service.TarefaService;
 
 public class EditarCommand implements Command<Tarefa> {

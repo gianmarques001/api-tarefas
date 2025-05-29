@@ -1,5 +1,8 @@
 package com.gianmarques001.tarefas_api;
 
+import com.gianmarques001.tarefas_api.entity.SubTarefa;
+import com.gianmarques001.tarefas_api.entity.Tarefa;
+import com.gianmarques001.tarefas_api.repository.TarefaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

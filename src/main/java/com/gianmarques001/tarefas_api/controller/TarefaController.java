@@ -1,4 +1,4 @@
-package com.gianmarques001.tarefas_api;
+package com.gianmarques001.tarefas_api.controller;
 
 
 import com.gianmarques001.tarefas_api.comando.*;
@@ -7,6 +7,8 @@ import com.gianmarques001.tarefas_api.dtos.TarefaRequestDTO;
 import com.gianmarques001.tarefas_api.dtos.TarefaResponseDTO;
 import com.gianmarques001.tarefas_api.mapper.TarefaMapper;
 import com.gianmarques001.tarefas_api.service.TarefaService;
+import com.gianmarques001.tarefas_api.entity.SubTarefa;
+import com.gianmarques001.tarefas_api.entity.Tarefa;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

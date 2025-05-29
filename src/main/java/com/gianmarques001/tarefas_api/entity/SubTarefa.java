@@ -1,4 +1,4 @@
-package com.gianmarques001.tarefas_api;
+package com.gianmarques001.tarefas_api.entity;
 
 import lombok.Getter;
 import lombok.Setter;

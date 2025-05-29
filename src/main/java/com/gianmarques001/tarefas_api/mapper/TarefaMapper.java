@@ -1,7 +1,7 @@
 package com.gianmarques001.tarefas_api.mapper;
 
-import com.gianmarques001.tarefas_api.SubTarefa;
-import com.gianmarques001.tarefas_api.Tarefa;
+import com.gianmarques001.tarefas_api.entity.SubTarefa;
+import com.gianmarques001.tarefas_api.entity.Tarefa;
 import com.gianmarques001.tarefas_api.dtos.SubTarefaUpdateRequestDTO;
 import com.gianmarques001.tarefas_api.dtos.TarefaRequestDTO;
 

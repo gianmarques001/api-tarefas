@@ -1,4 +1,6 @@
 package com.gianmarques001.tarefas_api.dtos;
 
-public record SubTarefaUpdateRequestDTO(String descricao, boolean concluido) {
+import jakarta.validation.constraints.NotBlank;
+
+public record SubTarefaUpdateRequestDTO(@NotBlank String descricao, boolean concluido) {
 }

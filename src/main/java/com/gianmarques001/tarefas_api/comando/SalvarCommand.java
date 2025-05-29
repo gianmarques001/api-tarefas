@@ -1,6 +1,6 @@
 package com.gianmarques001.tarefas_api.comando;
 
-import com.gianmarques001.tarefas_api.Tarefa;
+import com.gianmarques001.tarefas_api.entity.Tarefa;
 import com.gianmarques001.tarefas_api.service.TarefaService;
 
 public class SalvarCommand implements Command<Tarefa> {

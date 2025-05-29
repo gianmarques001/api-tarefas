@@ -1,8 +1,8 @@
 package com.gianmarques001.tarefas_api.service;
 
-import com.gianmarques001.tarefas_api.SubTarefa;
-import com.gianmarques001.tarefas_api.Tarefa;
-import com.gianmarques001.tarefas_api.TarefaRepository;
+import com.gianmarques001.tarefas_api.entity.SubTarefa;
+import com.gianmarques001.tarefas_api.entity.Tarefa;
+import com.gianmarques001.tarefas_api.repository.TarefaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
